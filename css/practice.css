@@ -1,0 +1,80 @@
+*{
+
+}
+.zerogrid{
+    width: 50%;
+    margin: 0px 25%;
+}
+#logo-zshop{
+    width: 120px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.box-item{
+    width: 100%;
+}
+#cssmenu {
+    margin-left: 120px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.menu-css {
+    margin: 5px ;
+    margin-left: 50px ;
+    margin-top: 0px;
+}
+.row1 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.row .col-3-5 .box-item{
+    display: grid;
+    grid-template-columns: repeat(1,50% 50%);
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+}
+
+.content-box.box-style-1{
+    background-size: 50%;
+    height: 310px;
+    margin-top:0px ;
+    
+    
+}
+.box-text{
+    width: 55%;
+    justify-content: left;
+}
+.lead{
+    margin: 0%;
+    text-align: center;
+    font-size:40px ;
+}
+#travis{
+    margin-top: 0px;
+    font-size:30px ;
+}
+#lead{
+    font-size: 11px;
+    line-height: 20px;
+}
+.button-skin{
+    margin-top: 10px;
+    padding: 4px 20px 4px 20px;
+    font-size: 14px;
+}
+footer{
+    font-size: 10px;
+}
+.wrap-footer{
+    width: 10%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3);
+}
