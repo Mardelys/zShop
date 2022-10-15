@@ -325,7 +325,6 @@ body .wrap-body {
 	background-size: cover;
 	position: relative;
 }
-
 .content-box.box-style-3:before {
 	content: "";
 	display: block;
