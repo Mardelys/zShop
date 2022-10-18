@@ -3,7 +3,12 @@
     width: 1000px;
     margin: auto;
 }
-
+@media only screen and (max-width: 767px) {
+	.zerogrid{
+        width: 900px;
+        margin: auto;
+    }
+}
 /*#logo-zshop{
     width: 180px;
     margin-top: 5px;
